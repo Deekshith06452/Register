@@ -33,7 +33,7 @@ public class Register extends HttpServlet {
         if (success) {
             res.sendRedirect("success.html");
         } else {
-            res.sendRedirect("register.html?error=1");
+            res.sendRedirect("index.html?error=1");
         }
     }
 }
