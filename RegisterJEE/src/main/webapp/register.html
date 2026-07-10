@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="card">
+		<div class="logo">
+			<svg viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+            </svg>
+		</div>
+		<h2>Create account</h2>
+		<p class="sub">Fill in the details below to register</p>
+
+		<form action="register" method="POST">
+			<div class="field">
+				<label>Name</label> <input type="text" name="name"
+					placeholder="John Doe" required>
+			</div>
+			<div class="field">
+				<label>Email</label> <input type="email" name="email"
+					placeholder="john@example.com" required>
+			</div>
+			<div class="field">
+				<label>Password</label> <input type="password" name="password"
+					placeholder="••••••••" required>
+			</div>
+			<div class="field">
+				<label>Phone number</label> <input type="tel" name="ph_num"
+					placeholder="+91 99999 99999" required>
+			</div>
+			<button class="btn" type="submit">Register</button>
+		</form>
+	</div>
+</body>
+</html>
